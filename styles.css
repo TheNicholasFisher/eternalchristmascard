@@ -25,6 +25,13 @@
 .star img{
     width: 10vw;
     min-width: 70px;
+    animation: spin 5s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    100% { transform: rotate(-5deg); }
 }
 
 h1{
